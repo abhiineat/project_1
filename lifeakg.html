@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placement</title>
+</head>
+<style>
+    header{
+        /* border: 2px solid red; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        position: sticky;
+        top: 1px;
+        background-color: white;
+    }
+    .item{
+      padding: 7px;
+      margin: 2px;
+      
+    }
+    .aboutText{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;
+      width: 200px;
+      text-align: center;
+      font-size: larger;
+      text-decoration: underline;
+    }
+    .aboutImage{
+      width: 400px;
+      padding: 65px;
+    }
+    #akg{
+      height: 50px;
+    }
+    .container{
+      height: 144px;
+      width: 1500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    .about{
+      display: flex;
+      width: 1500px;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-content: center;
+    }
+    #aboutContent{
+      display: block;
+      width: 400px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 25px;
+      font-size: larger;
+    }
+    .poster{
+      width: 100%;
+    }
+   
+  .navbar{
+    margin-top: 20px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 47, 47);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.8);
+    border-radius: 0%;
+    
+  }
+  .navbar li{
+    display: inline;
+    margin: 0%;
+    float: left;
+  }
+  .navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 21px;
+  }
+  .navbar li a:hover{
+    color: rgb(236, 236, 60);
+    background-color: rgb(75, 72, 72);
+    
+  }
+  #title{
+    
+    font-size: medium;
+    margin: 0%;
+    display: block;
+  }
+  #item1{
+    margin: 0%;
+    padding: 0%;
+  }
+  .lower ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+  }
+  
+  .foot{
+    background-color: gray;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .foot1{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   ul{
+    margin-top: 4px;
+   }
+   ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .place{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #292828;
+    color: white;
+    height: 50px;
+    font-size: larger;
+  }
+  p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+  }
+  .hostel1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;
+      width: 200px;
+      text-align: center;
+      font-size: larger;
+      text-decoration: underline;
+  }
+  .hostel2{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 35%;
+  }
+ 
+  
+   
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2022/08/azadi75.jpg" width="100px" alt="">
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" width="100px" alt="akg">
+            </div>
+            <div class="item" id="item-3">
+            <div id="title" >
+                <h2 class="item1">AJAY KUMAR GARG ENGINEERING COLLEGE
+                    </h2>
+                <p>(Affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, UP, College Code - 027)</p>
+            </div>
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/Silver-Jubilee-Logo.jpeg" width="130px" alt="img">
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2023/08/NAACLogo.jpg" width="150px" alt="img">
+            </div>
+         </div>
+        <div class="lower">
+            <ul style="list-style-type: di;" class="navbar">
+                <li> <a href="#"> About</a></li>
+                <li> <a href="#">Departments</a> </li>
+                <li> <a href="#"> Academics</a></li>
+                <li> <a href="#"> Admissions</a></li>
+                <li> <a href="#"> Life@AKGEC</a></li>
+                <li> <a href="#"> Achievements</a></li>
+                <li> <a href="#"> Centre of excellence</a></li>
+                <li> <a href="placement.html">Placements</a> </li>
+                <li> <a href="#"> VE Cell</a></li>
+                <li> <a href="#"> Alumini</a></li>
+                <li> <a href="#"> Library</a></li>
+                <li> <a href="#"> R&D</a></li>
+                <br>
+                
+    
+            </ul>
+    
+        </div>
+        
+    </header>
+    <main>
+
+        <div class="place">
+            <h2><b>Hostel</b></h2>
+        </div>
+        <div class="hostel">
+            <p>The college provides well furnished hostel accommodation to its students. The six campus hostels are spread over four complexes namely, the Junior Girls Hostel Complex, the Girls Hostel Complex, the Junior Boys Hostel Complex and the Senior Boys Hostel Complex. 
+                The three girls hostel have double and triple seater rooms and accommodate about 600 students. The Junior Boys Hostel having double occupancy rooms can accommodate about 300 students and is reserved for first year students. The Senior Boys Hostel Complex has two hostels with single and triple seater accommodation and houses about 600 students.
+
+                Each hostel complex has its separate mess with well equipped kitchen and dining area providing hygienic, nutritious and wholesome meals. Hostels have gymnasium as well as indoor and outdoor sports facilities. 
+                The hostels also have a TV room and library with magazines and fiction / general reading books. Hostels are equipped with eco-friendly solar water heating systems. Hostels also have canteens and provision stores for minor item of daily requirement.
+                 The hostels thus provide reasonable levels of comfort, hygienic food, recreation facilities and an environment conducive for pursuit of academic and all round development.</p>
+        </div>
+        <div class="hostel1">
+            <h3>List of Amenities at a Glance</h3>
+        </div>
+        <div class="hostel2">
+            <ul>
+                <li>Furnished rooms including Curtains, Mattress, Pillow, Bed Sheets</li>
+                <li>Clean and Hygienic – Mess & Dining</li>
+                <li>Internet Facility (wi fi)</li>
+                <li>Solar Water Heaters</li>
+                <li>Gymnasium</li>
+                <li>TV Room</li>
+                <li>Library</li>
+                <li>Indoor and Outdoor Sports Facilities</li>
+                <li>Canteen</li>
+                <li>Utility Store</li>
+                
+            </ul>
+        </div>
+        <div class="hostel1">
+            <h3>Boy's hostel</h3>
+        </div>
+        <div class="hostel2">
+            <img src="boy.jpg" alt="">
+        </div>
+    </div>
+    <br>
+    <div class="hostel1">
+        <h3>Girl's hostel</h3>
+    </div>
+    <div class="hostel2">
+        <img src="Girl_1.jpg" alt="">
+    </div>
+    </main>
+    <footer>
+        <div class="foot">
+          <a href="#">Back to top</a>
+        </div>
+        <div class="foot1">
+          <ul>
+            <h4>ADDRESS :</h4>
+            <a>27th Km Milestone</a>
+            <a>Delhi-Meerut Expressway</a>
+            <a>P.O. Adhyatmik Nagar</a>
+            <a>Ghaziabad - 201009</a>
+            <a>8744052891-93</a>
+            <a>7290034978</a>
+            <a>Admissions Enquiry: 1800-200-0777</a>
+            <a>info@akgec.ac.in</a>
+          </ul>
+          <ul>
+            <h4>Quick Links :</h4>
+            <a>AKGIM-MBA Admission</a>
+            <a>AKGIM-MBA</a>
+            <a>AICTE Approval Letters</a>
+            <a>NIRF Data for Ranking 2023</a>
+            <a>Mandatory Disclosure</a>
+            <a>Open Educational Resources (OER)</a>
+            <a>Online Reporting of Ragging Cases</a>
+            <a>Grievance Committee</a>
+            <a>Internal Complaints Committee</a>
+          </ul>
+            <ul>
+              <h4>About AKGEC :</h4>
+              <a>Ajay Kumar Garg Engineering College (AKGEC)</a>
+              <a>offers four year under graduate B.Tech course in</a>
+              <a>ten engineering branches, two year post graduate</a>
+              <a>M.Tech course in four engineering branches and</a>
+              <a>two year post graduate MCA course.</a>
+            </ul>
+        </div>
+      </footer>
+</body>
+</html>

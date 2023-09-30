@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>placement</title>
+</head>
+<style>
+    header{
+        /* border: 2px solid red; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        position: sticky;
+        top: 1px;
+        background-color: white;
+    }
+    .item{
+      padding: 7px;
+      margin: 2px;
+      
+    }
+    .aboutText{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: inline;
+      width: 200px;
+      text-align: center;
+      font-size: larger;
+      text-decoration: underline;
+    }
+    .aboutImage{
+      width: 400px;
+      padding: 65px;
+    }
+    #akg{
+      height: 50px;
+    }
+    .container{
+      height: 144px;
+      width: 1500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+    .about{
+      display: flex;
+      width: 1500px;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-evenly;
+      align-content: center;
+    }
+    #aboutContent{
+      display: block;
+      width: 400px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 25px;
+      font-size: larger;
+    }
+    .poster{
+      width: 100%;
+    }
+   
+  .navbar{
+    margin-top: 20px;
+    width: 1500px;
+    color: white;
+    text-align: center;
+    background-color: rgb(49, 47, 47);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.8);
+    border-radius: 0%;
+    
+  }
+  .navbar li{
+    display: inline;
+    margin: 0%;
+    float: left;
+  }
+  .navbar li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 21px;
+  }
+  .navbar li a:hover{
+    color: rgb(236, 236, 60);
+    background-color: rgb(75, 72, 72);
+    
+  }
+  #title{
+    
+    font-size: medium;
+    margin: 0%;
+    display: block;
+  }
+  #item1{
+    margin: 0%;
+    padding: 0%;
+  }
+  .lower ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+  }
+  .place{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #292828;
+    color: white;
+    height: 50px;
+    font-size: larger;
+  }
+  .lgo{
+    display: inline-block;
+    padding-left: 420px;
+
+  }
+  .lgoText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      justify-content: space-evenly;
+      height: 450px
+
+  }
+  .lgoText1{
+    width: 7500px;
+    font-size: 17px;
+    padding-right: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .lgoText2{
+    width: 7500px;
+    padding-left: 2%;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .logoText1 h4{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .foot{
+    background-color: gray;
+    color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   .foot1{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   ul{
+    margin-top: 4px;
+   }
+   ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+  .placeRec{
+    display: flex;
+    justify-content: center;
+
+  }
+
+ 
+  
+   
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2022/08/azadi75.jpg" width="100px" alt="">
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" width="100px" alt="akg">
+            </div>
+            <div class="item" id="item-3">
+            <div id="title" >
+                <h2 class="item1">AJAY KUMAR GARG ENGINEERING COLLEGE
+                    </h2>
+                <p>(Affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, UP, College Code - 027)</p>
+            </div>
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2022/12/Silver-Jubilee-Logo.jpeg" width="130px" alt="img">
+            </div>
+            <div class="item">
+                <img src="https://www.akgec.ac.in/wp-content/uploads/2023/08/NAACLogo.jpg" width="150px" alt="img">
+            </div>
+         </div>
+        <div class="lower">
+            <ul style="list-style-type: di;" class="navbar">
+                <li> <a href="#"> About</a></li>
+                <li> <a href="#">Departments</a> </li>
+                <li> <a href="#"> Academics</a></li>
+                <li> <a href="#"> Admissions</a></li>
+                <li> <a href="lifeakg.html"> Life@AKGEC</a></li>
+                <li> <a href="#"> Achievements</a></li>
+                <li> <a href="#"> Centre of excellence</a></li>
+                <li> <a href="#">Placements</a> </li>
+                <li> <a href="#"> VE Cell</a></li>
+                <li> <a href="#"> Alumini</a></li>
+                <li> <a href="#"> Library</a></li>
+                <li> <a href="#"> R&D</a></li>
+                <br>
+                
+    
+            </ul>
+    
+        </div>
+        
+    </header>
+    <main>
+        <div class="place">
+            <h2><b>T&P Department</b></h2>
+        </div>
+        <div class="lgo">
+            <img src="get_start.jpg" width="600px" alt="logo">
+        </div>
+        <div class="lgoText">
+            <div class="lgoText1">
+            <h4>Training</h4>
+            <p>
+                With the mission to serve society by promoting excellence in education AKGEC aims to produce sound technical professionals with a temperament of strong logic. For this, special efforts are made to groom students to meet the standards of industry, both in technical knowledge and in soft skills. 
+                There is continuous college-industry interface and interactive seminars on emerging technologies are organised regularly to provide a holistic exposure to the students.
+                
+                The college is part of the Campus Connect Program of Infosys for training students in accordance with the needs of industry. 
+                The college also conducts specialized courses for CAD packages like PRO-E.
+                
+                The college helps students in undergoing industrial training for 04-06 weeks (2nd year Mechanical & 3rd year students of all branches) in reputed companies like BHEL, CMC Noida, Samsung Software, Genpact, HCL, NTPC Dadri, Miracle Technologies, Birla Soft, etc.
+                
+                Besides this, AKGEC strives to inculcate responsibility and accountability in its students; responsibility towards their organizations and accountability towards society. The college conducts a Personality Development Program which enhances soft skills of the students, builds their self-confidence and motivates them to scale new unbound heights of glory.
+                
+                We imbibe in our students values of self-discipline, decision making, cultural closeness & moral resurgence and above all we try to reap good citizens and human beings.</p>
+            </div>
+            <div class="lgoText2">
+                <h4>Placement</h4>
+                <p> AKGEC believes that each student is a valuable resource. 
+                    The placement cell focuses on each student to maximize his/her career prospects and assists him/her in achieving the same.
+                     Students are placed through campus recruitment programs.
+                      The Training and Placement Cell is committed to fulfilling the dreams of all those who graduate from A.K.G. Engineering College. 
+                      Objective of the placement cell is to place students in good companies. This is achieved through campus selections conducted in the college for which the students are trained in aptitude, technical and soft skills, much ahead of campus selections. '
+                      The Cell believes in overall development of the students’ personality, which will help them to achieve a rewarding career.</p>
+            </div>
+        </div>
+
+        <hr color="yellow">
+        <div class="place">
+            <h2><b>Placement Records</b></h2>
+        </div>
+        <br>
+        <div class="placeRec">
+            <img src="PlacementGraph2022.jpg" alt="placement">
+        </div>
+        <br>
+        <br>
+        <div class="placeRec">
+            <img src="PLACEMENT-GRAPH.png" alt="placement">
+        </div>
+
+        <hr color="yellow">   
+        <div class="place">
+            <h2><b>Placement Highlights</b></h2>
+        </div>
+        <br>
+        <div class="placeRec">
+            <img src="PlacementHighlights1 (1).jpg" alt="placement">
+        </div>
+        <br>
+        <br>
+        <div class="placeRec">
+            <img src="PlacementHighlights1.jpg" alt="placement">
+        </div> 
+        <div class="placeRec">
+          <img src="PlacementHighlights2.jpg" alt="placement">
+      </div>
+      <br>
+      <br>
+      <div class="placeRec">
+          <img src="PlacementHighlights4.jpg" alt="placement">
+      </div> 
+      <br>
+
+    </main>
+    <footer>
+        <div class="foot">
+          <a href="#">Back to top</a>
+        </div>
+        <div class="foot1">
+          <ul>
+            <h4>ADDRESS :</h4>
+            <a>27th Km Milestone</a>
+            <a>Delhi-Meerut Expressway</a>
+            <a>P.O. Adhyatmik Nagar</a>
+            <a>Ghaziabad - 201009</a>
+            <a>8744052891-93</a>
+            <a>7290034978</a>
+            <a>Admissions Enquiry: 1800-200-0777</a>
+            <a>info@akgec.ac.in</a>
+          </ul>
+          <ul>
+            <h4>Quick Links :</h4>
+            <a>AKGIM-MBA Admission</a>
+            <a>AKGIM-MBA</a>
+            <a>AICTE Approval Letters</a>
+            <a>NIRF Data for Ranking 2023</a>
+            <a>Mandatory Disclosure</a>
+            <a>Open Educational Resources (OER)</a>
+            <a>Online Reporting of Ragging Cases</a>
+            <a>Grievance Committee</a>
+            <a>Internal Complaints Committee</a>
+          </ul>
+            <ul>
+              <h4>About AKGEC :</h4>
+              <a>Ajay Kumar Garg Engineering College (AKGEC)</a>
+              <a>offers four year under graduate B.Tech course in</a>
+              <a>ten engineering branches, two year post graduate</a>
+              <a>M.Tech course in four engineering branches and</a>
+              <a>two year post graduate MCA course.</a>
+            </ul>
+        </div>
+      </footer>
+</body>
+</html>
